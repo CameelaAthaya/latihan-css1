@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+
+.header-atas {
+    background-color: #ffffff;
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e4e6eb;
+    position: sticky;
+    top: 0;
+}
+
+.header-kiri {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 300px;
+}
+
+.logo-fb {
+    color: #1877f2;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.kotak-cari {
+    background-color: #f0f2f5;
+    padding: 6px 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.kotak-cari input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.header-tengah {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+}
+
+.tab-menu {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+.tab-menu.aktif {
+    border-bottom: 3px solid #1877f2;
+}
+
+.header-kanan {
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lingkaran-menu {
+    background-color: #e4e6eb;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.wadah-utama {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.kolom-samping {
+    width: 260px;
+    flex-shrink: 0;
+}
+
+.judul-halaman {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.list-link {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.item-link {
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.item-link:hover {
+    background-color: #e4e6eb;
+}
+
+.kolom-tengah {
+    width: 500px;
+}
+
+.judul-stories {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    color: #65676b;
+    margin-bottom: 8px;
+}
+
+.judul-stories a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.baris-stories {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.kotak-story {
+    flex: 1;
+    height: 150px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.kotak-story img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mini-profil-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: #1877f2;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.kotak-story p {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+.kotak-input-status {
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    margin-bottom: 16px;
+}
+
+.avatar-bulat {
+    background-color: #e4e6eb;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    font-size: 20px;
+}
+
+.kolom-letik, .kolom-input, .kolom-type, .kolom-typing, .kolom-ketik {
+    background-color: #f0f2f5;
+    padding: 8px 16px;
+    border-radius: 20px;
+    flex-grow: 1;
+    color: #65676b;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.kartu-feed {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    padding-top: 12px;
+}
+
+.kepala-feed {
+    display: flex;
+    gap: 10px;
+    padding: 0 12px;
+    align-items: center;
+}
+
+.info-pemilik h4 {
+    font-size: 14px;
+}
+
+.info-pemilik p {
+    font-size: 12px;
+    color: #65676b;
+}
+
+.teks-feed {
+    font-size: 14px;
+    padding: 12px;
+}
+
+.gambar-feed {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.kartu-rekomendasi {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    margin-bottom: 16px;
+}
+
+.label-rekomendasi {
+    font-size: 12px;
+    color: #65676b;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.isi-rekomendasi {
+    display: flex;
+    gap: 12px;
+}
+
+.isi-rekomendasi h4 {
+    font-size: 14px;
+}
+
+.isi-rekomendasi p {
+    font-size: 12px;
+    color: #65676b;
+    margin: 4px 0 8px 0;
+}
+
+.tombol-abu {
+    background-color: #e4e6eb;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.isi-rekomendasi img {
+    width: 60px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.judul-kontak {
+    font-size: 14px;
+    color: #65676b;
+    margin-bottom: 8px;
+}
+
+.list-kontak {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.orang-kontak {
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 4px;
+}

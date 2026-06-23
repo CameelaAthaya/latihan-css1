@@ -1,0 +1,235 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #aaa;
+}
+
+.exercise-section {
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  gap: 40px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.red-square {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.green-circle {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.survey-box {
+  background-color: #fff;
+  color: #000;
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  width: 350px;
+}
+
+.survey-text {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: normal;
+}
+
+.survey-btn {
+  padding: 6px 14px;
+  margin-right: 6px;
+  background-color: #f2f2f2;
+  border: 1px solid #888;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.yt-banner {
+  background-color: #212121;
+  color: #fff;
+  padding: 20px;
+  width: 380px;
+  box-sizing: border-box;
+}
+
+.yt-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.yt-desc {
+  font-size: 13px;
+  color: #aaa;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.twitter-shadow-wrap {
+  background-color: #fff;
+  padding: 10px;
+  width: 440px;
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2), 0px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+
+.twitter-box {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.twitter-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.twitter-input {
+  border: none;
+  font-size: 16px;
+  color: #000;
+  flex: 1;
+  margin-left: 12px;
+  margin-right: 12px;
+  outline: none;
+}
+
+.twitter-btn {
+  background-color: #4a99e9;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cards-container {
+  display: block;
+}
+
+.friend-card {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  width: 150px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.1), 0px 2px 4px rgba(0,0,0,0.3);
+  margin-right: 15px;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.friend-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.friend-info {
+  padding: 10px;
+}
+
+.friend-name {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.friend-status {
+  font-size: 12px;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.add-friend-btn {
+  background-color: #3b71ca;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 6px 0;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.google-container {
+  background-color: #fff;
+  padding: 40px 20px;
+  width: 600px;
+  border-radius: 6px;
+}
+
+.google-row {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.google-logo {
+  width: 160px;
+  height: auto;
+}
+
+.google-search-input {
+  width: 80%;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 12px 20px;
+  font-size: 15px;
+  outline: none;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.1);
+}
+
+.google-search-input:focus {
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+}
+
+.google-btn {
+  background-color: #f8f9fa;
+  color: #3c4043;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-size: 14px;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  border: 1px solid #dadce0;
+  color: #202124;
+}
